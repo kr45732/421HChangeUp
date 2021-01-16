@@ -17,7 +17,7 @@ Motor Robot::TopRoller(7);
 
 ADIEncoder Robot::LeftEncoder(1, 2);
 ADIEncoder Robot::RightEncoder(7, 8, true);
-ADIEncoder Robot::BackEncoder(3, 4);
+ADIEncoder Robot::BackEncoder(1, 2);
 
 Imu Robot::Inertial(5);
 
